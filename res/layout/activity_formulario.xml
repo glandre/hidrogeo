@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/responsavel" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Campo Obrigatório" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/poco" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+		<!-- Possibilidade de inserir um Spinner -->
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unidade_federativa" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leste_oeste" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/norte_sul" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cota" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/utm" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_analise" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/horario_analise" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperatura_ambiente" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperatura_agua" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pH" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/condutividade_eletrica" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solidos_totais_dissolvidos" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potencial_oxi_reducao" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alcalinidade_total" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alcalinidade_carbonato" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/observacoes" />
+        
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
