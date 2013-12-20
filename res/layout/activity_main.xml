@@ -1,139 +1,74 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C9C9C"
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-    <!-- weight segue a orientação (no caso, vertical) -->
+    <!-- width = fill_parent - para obter largura ocupando toda tela -->
 
-    <RelativeLayout
+    <TextView
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.5"
-        android:background="#4F4F4F"
-        android:padding="20dp" >
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hidro_geo"
+        android:textColor="#000000"
+        android:textSize="25sp"/>
 
-        <LinearLayout
-            android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="#E8E8E8" >
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:background="#E8E8E8" >
-        </LinearLayout>
-    </RelativeLayout>
-
-    <RelativeLayout
+    <TextView
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:background="#696969"
-        android:padding="10dp" >
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cadastro_dados"
+        android:textColor="#000000"
+        android:textSize="15sp" />
 
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:background="#FF0000" >
-        </LinearLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp" />
 
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="30dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:background="#FFFFFF" >
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="30dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:background="#FFFFFF" >
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:background="#FF0000" >
-        </LinearLayout>
-    </RelativeLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/botao_inserir"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#828282" >
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/inserir_dados" />
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="#FFFFFF" >
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#FFFFFF" >
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="#FFFFFF" >
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/botao_exportar"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:baselineAligned="false"
-        android:background="#9C9C9C"
-        android:orientation="horizontal"
-        android:padding="10dp" >
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/exportar_dados" />
 
-        <LinearLayout
-            android:layout_width="5dp"
-            android:layout_height="5dp"
-            android:layout_marginRight="10dp"
-            android:background="#FFFFFF" >
-        </LinearLayout>
+    <Button
+        android:id="@+id/botao_restaurar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/restaurar_dados" />
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#FFFFFF" >
-        </LinearLayout>
+    
+    
+    <TextView
+        android:id="@+id/aviso"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="15sp"/>
 
-        <LinearLayout
-            android:layout_width="5dp"
-            android:layout_height="5dp"
-            android:layout_marginLeft="10dp"
-            android:background="#FFFFFF" >
-        </LinearLayout>
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="115dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/logo_ufms"
+        android:src="@drawable/logobonito" />
 
 </LinearLayout>

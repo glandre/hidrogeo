@@ -8,24 +8,30 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
+    <uses-permission 
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="app.hidrogeo1.MainActivity"
+            android:name="app.hidrogeo.MainActivity"
             android:label="@string/app_name" >
-        </activity>
-        <activity android:name="app.hidrogeo1.Ficha" >
-        </activity>
-        <activity android:name="app.hidrogeo1.Formulario" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="app.hidrogeo.Ficha" >
+        </activity>
+        <activity android:name="app.hidrogeo.FormularioActivity" >
+            
+        </activity>
+        
+        
+        
     </application>
-
+    
 </manifest>

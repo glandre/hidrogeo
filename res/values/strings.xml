@@ -5,8 +5,19 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     
+    <!-- activity_main -->
+    <string name="hidro_geo">HidroGeo</string>
+    <string name="cadastro_dados">Cadastrar Dados</string>
+    <string name="inserir_dados">Inserir Dados</string>
+    <string name="exportar_dados">Exportar Dados</string>
+    <string name="restaurar_dados">Restaurar Dados</string>
+    <string name="logo_ufms">Logo UFMS</string>
     
-    <!-- activity_ficha -->
+    <string name="hint_campo_obrigatorio">Campo Obrigatório!</string>
+    
+    
+    
+    <!-- activity_formulario -->
     <string name="responsavel">Responsável:</string>
     <string name="poco">Poço:</string>
     <string name="localidade">Localidade:</string>
@@ -28,5 +39,6 @@
     <string name="alcalinidade_total">Alcalinidade Total:</string>
     <string name="alcalinidade_carbonato">Alcalinidade Carbonato:</string>
     <string name="observacoes">Observações:</string>
+    <string name="salvar_formulario">Salvar</string>
 
 </resources>

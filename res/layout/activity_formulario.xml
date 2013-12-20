@@ -16,9 +16,10 @@
             android:text="@string/responsavel" />
 
         <EditText
+        	android:id="@+id/responsavel"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="Campo Obrigatório" />
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -27,10 +28,23 @@
             android:text="@string/poco" />
         
         <EditText
+        	android:id="@+id/poco"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
         
 		<!-- Possibilidade de inserir um Spinner -->
+        <TextView
+            style="@style/parametros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/localidade" />
+        
+        <EditText
+        	android:id="@+id/localidade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
         <TextView
             style="@style/parametros"
             android:layout_width="wrap_content"
@@ -38,8 +52,10 @@
             android:text="@string/unidade_federativa" />
         
         <EditText
+        	android:id="@+id/unidade_federativa"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -48,8 +64,10 @@
             android:text="@string/leste_oeste" />
         
         <EditText
+        	android:id="@+id/leste_oeste"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -58,8 +76,10 @@
             android:text="@string/norte_sul" />
         
         <EditText
+        	android:id="@+id/norte_sul"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -68,8 +88,10 @@
             android:text="@string/cota" />
         
         <EditText
+        	android:id="@+id/cota"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -78,8 +100,10 @@
             android:text="@string/utm" />
         
         <EditText
+        	android:id="@+id/utm"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -88,8 +112,10 @@
             android:text="@string/longitude" />
         
         <EditText
+        	android:id="@+id/longitude"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -98,8 +124,10 @@
             android:text="@string/latitude" />
         
         <EditText
+        	android:id="@+id/latitude"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -108,8 +136,10 @@
             android:text="@string/data_analise" />
         
         <EditText
+        	android:id="@+id/data_analise"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -118,8 +148,10 @@
             android:text="@string/horario_analise" />
         
         <EditText
+        	android:id="@+id/horario_analise"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -128,8 +160,10 @@
             android:text="@string/temperatura_ambiente" />
         
         <EditText
+        	android:id="@+id/temperatura_ambiente"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -138,8 +172,10 @@
             android:text="@string/temperatura_agua" />
         
         <EditText
+        	android:id="@+id/temperatura_agua"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" 
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -148,8 +184,10 @@
             android:text="@string/pH" />
         
         <EditText
+        	android:id="@+id/pH"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -158,14 +196,22 @@
             android:text="@string/condutividade_eletrica" />
         
         <EditText
+        	android:id="@+id/condutividade_eletrica"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/solidos_totais_dissolvidos" />
+        
+        <EditText
+        	android:id="@+id/solidos_totais_dissolvidos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -174,8 +220,10 @@
             android:text="@string/potencial_oxi_reducao" />
         
         <EditText
+        	android:id="@+id/potencial_oxi_reducao"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -184,8 +232,10 @@
             android:text="@string/alcalinidade_total" />
         
         <EditText
+        	android:id="@+id/alcalinidade_total"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -194,8 +244,10 @@
             android:text="@string/alcalinidade_carbonato" />
         
         <EditText
+        	android:id="@+id/alcalinidade_carbonato"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
 
         <TextView
             style="@style/parametros"
@@ -204,8 +256,19 @@
             android:text="@string/observacoes" />
         
         <EditText
+        	android:id="@+id/observacoes"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_campo_obrigatorio" />
+        
+        <Button
+        android:id="@+id/botao_salvar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/salvar_formulario" />
+        
     </LinearLayout>
 
 </ScrollView>
